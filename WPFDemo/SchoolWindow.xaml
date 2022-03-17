@@ -1,0 +1,36 @@
+﻿<Window x:Class="WPFDemo.SchoolWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDemo"
+        mc:Ignorable="d"
+        Title="SchoolWindow" Height="450" Width="800">
+    <TabControl HorizontalAlignment="Left" Height="288" Margin="38,28,0,0" VerticalAlignment="Top" Width="469" Grid.Column="1">
+        <TabItem Header="Campuses">
+            <Grid Background="#FFE5E5E5">
+                <ListBox Name="lbCampuses" HorizontalAlignment="Left" Height="260" VerticalAlignment="Top" Width="463"/>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Major">
+            <Grid Background="#FFE5E5E5">
+                <ListBox Name ="lbMajors" HorizontalAlignment="Left" Height="260" VerticalAlignment="Top" Width="463"/>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Courses">
+            <Grid Background="#FFE5E5E5">
+                <ListBox Name="lbCourses" HorizontalAlignment="Left" Height="260" VerticalAlignment="Top" Width="463"/>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Students">
+            <Grid Background="#FFE5E5E5">
+                <ListBox Name="lbStudents" HorizontalAlignment="Left" Height="224" VerticalAlignment="Top" Width="463" Margin="0,0,-0.333,0" MouseDoubleClick="onItemClick"/>
+                <Button Content="Add Student" HorizontalAlignment="Right" Margin="0,229,24,0" VerticalAlignment="Top" Width="185" Height="21" Click="Button_Click"/>
+                <Button Content="Save" HorizontalAlignment="Left" Margin="24,229,0,0" VerticalAlignment="Top" Width="185" Height="21" Click="btnSave_Click"/>
+
+            </Grid>
+        </TabItem>
+    </TabControl>
+
+
+</Window>
