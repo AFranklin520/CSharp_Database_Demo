@@ -1,5 +1,4 @@
-﻿// Class: StudentClassDemo.Student.cs
-// Programmer: Rob Garner (rgarner7@cnm.edu)
+﻿// Programmer: Rob Garner (rgarner7@cnm.edu)
 // Date: 20161003
 // Purpose: Holds information for one student
 
