@@ -1,4 +1,8 @@
-﻿using Microsoft.Win32;
+﻿//Anthony Franklin afranklin18@cnm.edu
+//WPFDialogDemo
+//03/17/2022
+
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,6 +18,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
+/*
+ TODO: 
+6.2.	Set up the lists in the other tabs so they can be used to update and change the lists in School.
+6.3.	Set up the student form so that is uses the Major, Campus and Courses lists to initialize the options on the form. Possibly by changing controls on the student form to drop down lists.
+6.4.	Add delete functionality to the lists.
+6.5.	Add a menu bar with a File menu that allows you to save all the data to a file or files.
+
+ */
 namespace WPFDemo
 {
     /// <summary>

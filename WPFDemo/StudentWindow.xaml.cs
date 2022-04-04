@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Anthony Franklin afranklin18@cnm.edu
+//WPFDialogDemo
+//03/17/2022;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
